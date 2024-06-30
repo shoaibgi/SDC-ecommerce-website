@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+<link rel="stylesheet" href="Payment.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <script>
+      window.alert("Selamat Datang");
+    </script>
+    <header>
+      <img
+        class="logo"
+        src="https://cdn-icons.flaticon.com/png/512/1604/premium/1604644.png?token=exp=1637380387~hmac=0e644a24c1873fc1cf8fe3e2f2eebc82"
+        alt=""
+        width="50px"
+      />
+      <nav>
+        <ul class="nav_links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="index.html">Shop</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-2">
+        <a href="signup.html">Log In</a>
+        <a href="#" class="cta"><button>Sign Up</button></a>
+      </div>
+    </header>
+    <div class="main">
+      <div class="kiri">
+        <p>-- For Freelances</p>
+        <h1 class="teks1">Payment Made</h1>
+        <h1 class="teks2">Easy.</h1>
+        <p>Free Payment Gateway, Supports Netbanking,</p>
+        <p>Credit, Debit Cards, UPI etc.</p>
+        <br />
+        <a href="#">Learn More</a>
+      </div>
+
+      <div class="kanan">
+        <div class="kanan-kiri">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png"
+            alt=""
+            width="50px"
+            height="50px"
+          />
+          <h4>Taha Malik</h4>
+          <p>205150407111023</p>
+          <a href="#"
+            ><button onclick="document.write('Paid Successful')">
+              Pay Now
+            </button></a
+          >
+        </div>
+        <div class="kanan-tengah">
+          <div class="pertama">
+            <div class="pertama-kiri">
+              <img
+                src="https://cdn-icons.flaticon.com/png/512/2969/premium/2969764.png?token=exp=1637314052~hmac=3a3415ef5e51b990cc4d549460148dae"
+                alt=""
+                width="50px"
+              />
+            </div>
+            <div class="pertama-tengah">
+              <p>Current Balance</p>
+              <p id="mantap">$ 290.5</p>
+            </div>
+            <div class="pertama-kanan">
+              <a href="#"class="cta"
+                ><button
+                  onclick="document.getElementById('mantap').innerHTML='$ 999.99'"
+                >
+                  Add More
+                </button></a
+              >
+            </div>
+          </div>
+          <br />
+          <div class="kedua">
+            <img
+              src="https://cdn-icons.flaticon.com/png/512/2931/premium/2931014.png?token=exp=1637316102~hmac=097207ac35ca5cff65bd51ce929bbd10"
+              alt=""
+              width="50px"
+            />
+            <h5 id="credit">$ 1000</h5>
+            <p>Balance</p>
+            <p id="credit2">**** **** **** 3667</p>
+            <a href="#"
+              ><button
+                onclick="document.getElementById('credit').style.display='block'"
+              >
+                Show
+              </button></a
+            >
+            <a href="#"
+              ><button
+                onclick="document.getElementById('credit').style.display='none'"
+              >
+                Hide
+              </button></a
+            >
+          </div>
+          <br />
+          <div class="ketiga">
+            <div class="ketiga-kiri">
+              <img
+                src="https://cdn-icons.flaticon.com/png/512/3008/premium/3008129.png?token=exp=1637314222~hmac=821ec040131ab05f2619366a8417f345"
+                alt=""
+                width="50px"
+              />
+            </div>
+            <div class="ketiga-tengah">
+              <p>Outstanding</p>
+              <p id="mantap2">$89.5</p>
+            </div>
+            <div class="ketiga-kanan">
+              <a href="#" class="cta"
+                ><button
+                  onclick="document.getElementById('mantap2').style.backgroundColor='red'"
+                >
+                  Add More
+                </button></a
+              >
+            </div>
+          </div>
+          <br />
+          <div class="keempat">
+            <img
+              style="cursor: pointer"
+              src="https://cdn-icons-png.flaticon.com/512/584/584067.png"
+              alt=""
+              width="30px"
+              height="30px"
+            />
+            <img
+              style="cursor: pointer"
+              src="https://cdn-icons-png.flaticon.com/512/1370/1370907.png"
+              alt=""
+              width="30px"
+              height="30px"
+            />
+            <img
+              style="cursor: pointer"
+              src="https://cdn-icons-png.flaticon.com/512/1827/1827425.png"
+              alt=""
+              width="30px"
+              height="30px"
+            />
+            <a href="#" class="cta"><button>Pay</button></a>
+          </div>
+        </div>
+        <div class="kanan-kanan">
+          <img
+            id="gambar"
+            src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png"
+            alt=""
+            width="50px"
+            height="50px"
+          />
+          <h4>Taha Malik</h4>
+          <p id="not-paid">Not Paid</p>
+          <a href="#"
+            ><button
+              type="button"
+              onclick="document.getElementById('gambar').src='https://cdn-icons-png.flaticon.com/512/1077/1077012.png'"
+            >
+              Pay Now
+            </button></a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="bawah-kiri">
+        <div class="bawah-kiri-kiri">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/71/71227.png"
+            alt=""
+            width="50px"
+            height="50px"
+          />
+        </div>
+        <div class="bawah-kiri-kanan">
+          <p>Best Payment Gateway for Global</p>
+          <p>Go Live Instantly.</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+      <div class="bawah-kanan">
+        <p>
+          <a href="#">LinkedIn</a> / <a href="#">Facebook</a> /
+          <a href="#">Instagram</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
